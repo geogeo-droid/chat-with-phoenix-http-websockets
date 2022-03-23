@@ -7,7 +7,7 @@ use Mix.Config
 # Run `mix help test` for more information.
 config :chat_with_phoenix_http_websockets, ChatWithPhoenixHttpWebsockets.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   database: "chat_with_phoenix_http_websockets_test#{System.get_env("MIX_TEST_PARTITION")}",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
